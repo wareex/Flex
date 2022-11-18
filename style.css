@@ -1,0 +1,43 @@
+/* CSS Document */
+body {
+    font: 16px arial;
+    color: #222;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container > div{
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+}
+.first{
+    background-color:khaki
+}
+.second{
+    background-color:coral;
+}
+.flex-container2{
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        line-height:auto;
+
+}
+.flex-container2 li:first-child {
+       margin-right: auto;
+       background:chartreuse ;
+       width: 100px;
+}
+
+.flex-container2 a {
+    margin: 10px;
+    border-radius: 5px;
+    background: #222;
+    color: darkturquoise;
+    display: block;
+    padding: 10px;
+}
+

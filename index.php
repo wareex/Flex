@@ -1,31 +1,34 @@
 <html>
+
 <head>
     <title>
         First Checking
     </title>
-    <link rel="stylesheet" href="style.css"> 
-<?php  ?>
+    <link rel="stylesheet" href="style.css">
+    <?php require_once("cal.php")    ?>
 </head>
+
 <body>
     <nav>
         <ul class="flex-container2">
             <li><img src="#">LOGO </li>
-            <li><a href="#">Home</a></li> 
+            <li><a href="#">Home</a></li>
             <li><a href="post.html">Blog</a></li>
             <li><a href="about.html">About us</a></li>
         </ul>
     </nav>
     <div class="flex-container">
-<div class="first">  
-<h1> First Test of knowing how Git works</h1>
-<p>Its seems to keep my past programmed code intact in time for future refrence and possible reuse</p>
-<p>Basically to keep Track of my commit codes</p>
-<p>It very good to add message tag to each commit for good refrence</p></div>  
+        <div class="first">
+            <h1> First Test of knowing how Git works</h1>
+            <p>Its seems to keep my past programmed code intact in time for future refrence and possible reuse</p>
+            <p>Basically to keep Track of my commit codes</p>
+            <p>It very good to add message tag to each commit for good refrence</p>
+        </div>
 
-<div class="second">
-<h1>It quite important a knwoledge to know few Git commands by heart</h1>
-<p>Gits Commads</p>
-<pre>usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+        <div class="second">
+            <h1>It quite important a knwoledge to know few Git commands by heart</h1>
+            <p>Gits Commads</p>
+            <pre>usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
@@ -71,8 +74,9 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 </pre>
-</div>
         </div>
+    </div>
 
 </body>
+
 </html>

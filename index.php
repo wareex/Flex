@@ -14,8 +14,8 @@
         <ul class="flex-container2">
             <li><img src="#">LOGO </li>
             <li><a href="#">Home</a></li>
-            <li><a href="post.html">Blog</a></li>
-            <li><a href="about.html">About us</a></li>
+            <li><a href="post.php">Blog</a></li>
+            <li><a href="about.php">About us</a></li>
         </ul>
     </nav>
     <div class="flex-container">

@@ -5,7 +5,7 @@
         First Checking
     </title>
     <link rel="stylesheet" href="style.css">
-    <?php require_once("cal.php")    ?>
+    <?php include_once("cal.php")    ?>
 </head>
 
 <body>
@@ -23,6 +23,19 @@
             <p>Its seems to keep my past programmed code intact in time for future refrence and possible reuse</p>
             <p>Basically to keep Track of my commit codes</p>
             <p>It very good to add message tag to each commit for good refrence</p>
+            <br />
+            <p><?php
+                $john = 23;
+                $sola = 34;
+                $Smith;
+                $cash = 100;
+
+                $one = $john + $sola;
+                $smith = $cash - $one;
+
+                echo "The ratio for smith is" . $smith;
+                ?>
+            </p>
         </div>
 
         <div class="second">

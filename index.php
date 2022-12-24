@@ -5,7 +5,8 @@
         First Checking
     </title>
     <link rel="stylesheet" href="style.css">
-    <?php include_once("cal.php")    ?>
+    <?php //include_once("cal.php")    
+    ?>
 </head>
 
 <body>
@@ -32,8 +33,8 @@
 
                 $one = $john + $sola;
                 $smith = $cash - $one;
-
-                echo "The ratio for smith is" . $smith;
+                echo ("The ratio for smith is") . " " . $smith;
+                phpinfo();
                 ?>
             </p>
         </div>

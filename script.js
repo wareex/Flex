@@ -15,7 +15,7 @@ var helldog3 = {name: "Ogah Kesuma", rank: "2" , field: "Explosives" , takes: "2
 //Functions for the objects
 function mjInfo() {
     //loading the function with the inherited features of object
-    alert(this.name + "is an" + this.field +"expert, with" + this.rank + "and " + this.takes +"kills." );
+    alert(this.name + " is an " + this.field +" expert, having ranked  " + this.rank + " and  " + this.takes +"  kills." );
 }
 
 //loading the recived object details into a log function for each object refrencing

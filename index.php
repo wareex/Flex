@@ -20,21 +20,100 @@
     </nav>
     <div class="flex-container">
         <div class="first">
-            <h1> First Test of knowing how Git works</h1>
-            <p>Its seems to keep my past programmed code intact in time for future refrence and possible reuse</p>
-            <p>Basically to keep Track of my commit codes</p>
-            <p>It very good to add message tag to each commit for good refrence</p>
-            <br />
+            <h1> Inputs with JS</h1>
+
+            <!--PHP STUFF -->
             <p>PHP Chunck</p>
             <p><?php
                 include_once('cal.php');
                 ?></p>
             <!--Form handling with Javascript intervene -->
-            <form method="post" action "post.php">
+            <table>
+                <tr>
 
-
-
+                    <!--LOGIN STUFF -->
+            </table>
+            <table align="center" cellspacing="2" border="1px">
+                <th align="center">LOGIN HERE</th>
+            </table>
+            <form method="post" action="post.php">
+                <table align="center" border="0px" cellspacing="2">
+                    <tr>
+                        <th>USERNAME</th>
+                        <td><input type="text" name="username" value="Input Username"></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="btn" value="REGISTER"></td>
+                        <td><input type="reset" name="btn" value="CANCEL"></td>
+                    </tr>
             </form>
+            </table>
+            <br />
+            <br />
+
+            <!--REGISTER STUFF -->
+            <table align="center" border="1px" cellspacing="2">
+                <th align="center"> New Member? Get Registered </th>
+            </table>
+            <form method="post" action="index.php">
+                <table align="center" border="0px" cellspacing="2">
+                    <tr>
+                        <th>Full Name</th>
+                        <td><input type="text" name="Names" value="YAMAHA USAGI"></td>
+                    </tr>
+                    <tr>
+                        <th>Email Address</th>
+                        <td><input type="text" name="email" value="EMAIL@mails.com"></td>
+                    </tr>
+
+                    <tr>
+                        <th>Phone Number</th>
+                        <td><input type="number" name="phone" value="+23409398383"></td>
+                    </tr>
+                    <tr>
+                        <th>Username</th>
+                        <td><input type="text" name="username" value="user"></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td><input type="password" name="pass"></td>
+                    </tr>
+                    <th>Retype Password</th>
+                    <td><input type="password" name="repass"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td><input type="radio" name="Names"></td>
+                    </tr>
+                    <tr>
+                        <th>Level of Study</th>
+                        <td><select name="level">
+                                <option>100</option>
+                                <option>200</option>
+                                <option>300</option>
+                                <option>400</option>
+                                <option>500</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>Courses of interest</th>
+                        <td><input type="checkbox" name="Names" value="NAMES"></td>
+                    </tr>
+                    <tr>
+                        <th>Message</th>
+                        <td><textarea rows="9px" cols="15px" name="message" value="Messages"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="btn" value="REGISTER"></td>
+                        <td><input type="reset" name="btn" value="RESET FORM"></td>
+                    </tr>
+            </form>
+            </table>
+            </tr>
         </div>
 
         <div class="second">

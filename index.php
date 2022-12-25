@@ -90,7 +90,7 @@ See 'git help git' for an overview of the system.
 </pre>
         </div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -27,6 +27,7 @@
         <div class="second">
             <h1>Second News</h1>
             <p>Gits Commads</p>
+            <script src="script.js"></script>
         </div>
     </div>
 

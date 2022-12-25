@@ -25,18 +25,16 @@
             <p>Basically to keep Track of my commit codes</p>
             <p>It very good to add message tag to each commit for good refrence</p>
             <br />
+            <p>PHP Chunck</p>
             <p><?php
-                $john = 23;
-                $sola = 34;
-                $Smith;
-                $cash = 100;
+                include_once('cal.php');
+                ?></p>
+            <!--Form handling with Javascript intervene -->
+            <form method="post" action "post.php">
 
-                $one = $john + $sola;
-                $smith = $cash - $one;
-                echo ("The ratio for smith is") . " " . $smith;
-                //phpinfo();
-                ?>
-            </p>
+
+
+            </form>
         </div>
 
         <div class="second">

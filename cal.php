@@ -8,4 +8,4 @@ $one = $john + $sola;
 $smith = $cash - $one;
 
 echo "The ratio for smith is" . " " . $smith;
-phpinfo();
+//phpinfo();

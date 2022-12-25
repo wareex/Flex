@@ -29,7 +29,7 @@ body {
 .flex-container2 li:first-child {
        margin-right: auto;
        background:chartreuse ;
-       width: 100px;
+       width: 20px;
 }
 
 .flex-container2 a {
@@ -39,14 +39,4 @@ body {
     color: darkturquoise;
     display: block;
     padding: 10px;
-}
-.flex-container2 img {
-    margin: 10px;
-    border-radius: 5px;
-    background: #222;
-    color: darkturquoise;
-    display: block;
-    padding: 10px;
-    max-width: 9px;
-    max-height:9px ;
 }

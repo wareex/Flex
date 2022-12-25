@@ -1,5 +1,8 @@
-var plyr1 = 500;
-var plyr2 = 600;
 
-alert((plyr1 > plyr2) ? plyr1 : plyr2);
+function glassOnion(plyr1,plyr2){
+  var plyrs = (plyr1 > plyr2) ? plyr1 : plyr2;
+   alert(plyrs);
+  // return plyrs; 
+}
 
+glassOnion(400,400.9);

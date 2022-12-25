@@ -40,3 +40,13 @@ body {
     display: block;
     padding: 10px;
 }
+.flex-container2 img {
+    margin: 10px;
+    border-radius: 5px;
+    background: #222;
+    color: darkturquoise;
+    display: block;
+    padding: 10px;
+    max-width: 9px;
+    max-height:9px ;
+}

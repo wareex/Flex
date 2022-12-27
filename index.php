@@ -88,8 +88,13 @@
                     <tr>
                         <th>Gender: </th>
                         <td>
-                        <label>Male</label>   
-                        <input type="radio" name="Names"></td>
+                            <label>Male</label>
+                            <input type="radio" name="male">
+                            <label>Female</label>
+                            <input type="radio" name="female">
+                            <label>I don't know</label>
+                            <input type="radio" name="others">
+                        </td>
                     </tr>
                     <tr>
                         <th>Level of Study</th>
@@ -102,8 +107,17 @@
                             </select></td>
                     </tr>
                     <tr>
-                        <th>Courses of interest</th>
-                        <td><input type="checkbox" name="Names" value="NAMES"></td>
+                        <th>Courses of interest:</th>
+                        <td>
+                            <label>Mathematics</label>
+                            <input type="checkbox" name="Math">
+                            <label>English</label>
+                            <input type="checkbox" name="eng">
+                            <label>Physics</label>
+                            <input type="checkbox" name="phy">
+                            <label>Chemistry</label>
+                            <input type="checkbox" name="chem">
+                        </td>
                     </tr>
                     <tr>
                         <th>Message</th>

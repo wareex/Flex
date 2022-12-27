@@ -86,8 +86,10 @@
                     <td><input type="password" name="repass"></td>
                     </tr>
                     <tr>
-                        <th>Gender</th>
-                        <td><input type="radio" name="Names"></td>
+                        <th>Gender: </th>
+                        <td>
+                        <label>Male</label>   
+                        <input type="radio" name="Names"></td>
                     </tr>
                     <tr>
                         <th>Level of Study</th>

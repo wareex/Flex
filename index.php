@@ -18,7 +18,7 @@
             <li><a href="about.php">About us</a></li>
         </ul>
     </nav>
-    <div class="flex-container">
+    <div id= "firstcontent" class="flex-container">
         <div class="first">
             <h1> Inputs with JS</h1>
 
@@ -132,7 +132,7 @@
             </tr>
         </div>
 
-        <div class="second">
+        <div id="secondcontent" class="second">
             <h1>It quite important a knwoledge to know few Git commands by heart</h1>
             <p>Gits Commads</p>
             <pre>usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]

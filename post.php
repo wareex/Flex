@@ -5,6 +5,7 @@
         First Checking|Blog Post
     </title>
     <link rel="stylesheet" href="style.css">
+    <script src="new.js" defer></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
             <script src="script.js"></script>
         </div>
     </div>
-    <script src="new.js"></script>
+
 </body>
 
 </html>

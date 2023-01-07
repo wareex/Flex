@@ -73,6 +73,9 @@ var newTr = document.createElement("tr");
 var flr = FLRs.getElementByTagName("tr")[3];
 flr.insertBefore(newTr, flr);
 
+
+//mkore checking
+document.getElementsByTagName("pre").style.fontSize = 25;
   
   
   

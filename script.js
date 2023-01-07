@@ -35,13 +35,19 @@ function glassOnion(plyr1,plyr2){
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Array
-var mean[] ={prompt("")};
+var mean= Array(5), nums;
+for(let i=1; i >= mean; i++){
+  nums = parseInt(prompt("Array values"));
+   mean += nums ;
+}
+alert(mean);
+
   
   
 //DOM
 
 var shiftcontent = document.getElementById("firstcontent");
-shiftcontent.setAttribute("color","blue");
+shiftcontent.setAttribute("text-align","right");
 
 console.log(shiftcontent.innerHTML);
 

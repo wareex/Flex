@@ -94,6 +94,15 @@ for (let i = 1; i <= n ; i++){
    alert(nPr);
     //alert(fact1);
 
+  //Array
+var mean= Array(5), nums;
+for(let i=1; i >= mean; i++){
+  nums = parseInt(prompt("Array values"));
+   mean += nums ;
+}
+alert(mean);
+
+
 
 
 

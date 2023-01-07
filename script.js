@@ -34,46 +34,33 @@ function glassOnion(plyr1,plyr2){
 
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//Array
-var mean= Array(5), nums;
-for(let i=1; i >= mean; i++){
-  nums = parseInt(prompt("Array values"));
-   mean += nums ;
-}
-alert(mean);
 
   
   
 //DOM
 
-var shiftcontent = document.getElementById("firstcontent");
+var shiftcontent = document.getElementById("secondcontent");
 shiftcontent.setAttribute("text-align","right");
-
+//innerHTML was meant to show the html code has it was in the text
 console.log(shiftcontent.innerHTML);
 
 //creating
-
-var newHead =document.createElement("h2");
+// created in nthe void
+var newHead =document.createElement("h1");
 var newPara = document.createElement("p");
-
 //adding content using innerHTML
-
 newHead.innerHTML = "And Here we are!";
 newPara.innerHTML = "Foreign governments may use hackers to spy on U.S. intelligence communications in order to learn about where our troops are located or otherwise gain a tactical advantage at war. ";
-
 // Attaching innerhtml to doc using appendchild
 document.getElementById("secondcontent").appendChild("newHead");
 document.getElementById("secondcontent").appendChild("newPara");
 
 ///////////
-var newHeadn =document.createElement("h2");
+var newHeadn =document.createElement("h1");
 var newParan = document.createElement("p");
-
 //using childs node to create
-
 var newHeadtxt = document.createTextNode("And Here we are!");
 var newParantxt = document.createTextNode("Foreign governments may use hackers to spy on U.S. intelligence communications in order to learn about where our troops are located or otherwise gain a tactical advantage at war. ");
-
 //attch the node to the element
 newHeadn.appendChild("newHeadtxt");
 newParan.appendChild("newParatxt");
@@ -81,8 +68,9 @@ newParan.appendChild("newParatxt");
 //////////
 
 //getting an element into list of similar elment(i.e <li>)
+var FLRs = "This is a login page";
 var newTr = document.createElement("tr");
-var flr = FLRs.getElementById("FLRs")[3];
+var flr = FLRs.getElementByTagName("tr")[3];
 flr.insertBefore(newTr, flr);
 
   

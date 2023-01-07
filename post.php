@@ -30,7 +30,7 @@
             <script src="script.js"></script>
         </div>
     </div>
-
+    <script src="new.js"></script>
 </body>
 
 </html>

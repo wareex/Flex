@@ -18,7 +18,7 @@
             <li><a href="about.php">About us</a></li>
         </ul>
     </nav>
-    <div id= "firstcontent" class="flex-container">
+    <div id="firstcontent" class="flex-container">
         <div class="first">
             <h1> Inputs with JS</h1>
 
@@ -183,7 +183,7 @@ See 'git help git' for an overview of the system.
 </pre>
         </div>
     </div>
-    <script src='new.js'> </script>
+    <script src='script.js'> </script>
 </body>
 
 </html>

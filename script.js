@@ -38,7 +38,7 @@ function glassOnion(plyr1,plyr2){
   
   
 //DOM
-
+window.onload=start;
 var shiftcontent = document.getElementById("secondcontent");
 shiftcontent.setAttribute("text-align","right");
 //innerHTML was meant to show the html code has it was in the text
